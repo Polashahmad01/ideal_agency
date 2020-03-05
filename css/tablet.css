@@ -1,0 +1,15 @@
+@media(min-width: 768px) and (max-width: 999px) {
+  #navbar .logo {
+    font-size: 1.7rem;
+  }
+
+  #navbar ul li a {
+    font-size: .8rem;
+  }
+
+  #navbar .btn .sign-in,
+  #navbar .btn .sign-up {
+    padding: .4rem 1rem;
+  }
+
+}

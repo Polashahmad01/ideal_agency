@@ -1,0 +1,118 @@
+/* Importing Fonts */
+@import url('https://fonts.googleapis.com/css?family=Cabin&display=swap');
+
+/* Declaring Variables */
+:root {
+  --body-color: #fff;
+  --primary-color: #FE9900;
+  --secondary-color: #c06c84;
+  --max-width: 1100px;
+  --link-color: #333;
+}
+
+/* Css Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+  background: var(--body-color);
+  line-height: 1.4rem;
+  font-family: 'Cabin', sans-serif;
+}
+
+h1, h2, h3 {
+  color: var(--link-color);
+}
+
+p {
+  font-size: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+/* Utility Styling */
+.container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 0 1rem;
+}
+
+/* Navbar Styling */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+#navbar .logo {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+#navbar .logo a:hover {
+  color: var(--primary-color);
+}
+
+#navbar ul {
+  display: flex;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 1rem;
+}
+
+#navbar ul li a:hover {
+  color: var(--primary-color);
+}
+
+#navbar .btn {
+  padding: .5rem;
+}
+
+#navbar .btn .sign-in {
+  display: inline-block;
+  padding: .5rem 1.3rem;
+  margin: 0 .5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--primary-color);
+  background: var(--body-color);
+}
+
+#navbar .btn .sign-in:hover {
+  background: var(--primary-color);
+  color: var(--body-color);
+}
+
+#navbar .btn .sign-up {
+  display: inline-block;
+  padding: .5rem 1.3rem;
+  margin: 0 .5rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  color: var(--body-color);
+  background: var(--primary-color);
+}
+
+#navbar .btn .sign-up:hover {
+  background: var(--body-color);
+  color: var(--primary-color);
+}
+
+/*  */
