@@ -28,4 +28,34 @@
   #navbar .btn .sign-up {
     padding: .3rem 1rem;
   }
+
+  /* Section: Design */
+  #design {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  #design .design-img img {
+    margin: .5rem 0;
+  }
+
+  #design .design-content h1 {
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    text-align: center;
+    margin: .5rem 0;
+  }
+
+  #design .design-content p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin: 1.7rem 0;
+  }
+
+  #design .design-content .btn {
+    padding: .3rem 1rem;
+    margin: auto;
+  }
 }

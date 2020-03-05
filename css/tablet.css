@@ -1,4 +1,5 @@
 @media(min-width: 768px) and (max-width: 999px) {
+  /* Navbar Styling */
   #navbar .logo {
     font-size: 1.7rem;
   }
@@ -12,4 +13,19 @@
     padding: .4rem 1rem;
   }
 
+  /* Section: Design */
+  #design .design-content h1 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  #design .design-content p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+
+  #design .design-content .btn {
+    padding: .2rem .3rem;
+  }
 }
