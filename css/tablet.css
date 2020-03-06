@@ -41,4 +41,25 @@
   #tool .card .item p {
     margin-bottom: 1rem;
   }
+
+  /* Section: professional */
+  #professional .professional-content h2 {
+    font-size: 1.7rem;
+    margin-top: 0;
+    margin-bottom: .7rem;
+  }
+
+  #professional .professional-content p {
+    line-height: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  #professional .professional-content h3 {
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+  }
+
+  #professional .professional-img img {
+    width: 100%;
+  }
 }

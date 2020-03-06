@@ -233,3 +233,40 @@ a {
   color: var(--body-color);
   background: var(--primary-color);
 }
+
+
+/* Section: Professional */
+#professional {
+  display: flex;
+  overflow: hidden;
+}
+
+#professional .professional-content {
+  flex: 1;
+}
+
+#professional .professional-content h2 {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+#professional .professional-content p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+#professional .professional-content h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+#professional .professional-img {
+  flex: 2;
+}
+
+#professional .professional-img img {
+  display: block;
+  margin: auto;
+  width: 90%;
+}

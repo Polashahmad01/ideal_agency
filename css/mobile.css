@@ -101,4 +101,27 @@
     font-weight: bold;
     text-transform: uppercase;
   }
+
+  /* Section: Professional */
+  #professional {
+    flex-direction: column-reverse;
+  }
+
+  #professional .professional-content h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  #professional .professional-content p {
+    font-size: .9rem;
+    line-height: 1.3rem;
+    text-align: center;
+  }
+
+  #professional .professional-content h3 {
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    text-align: center;
+  }
 }
