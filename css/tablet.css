@@ -62,4 +62,15 @@
   #professional .professional-img img {
     width: 100%;
   }
+
+  /* Section: manager */
+  #manager .manager-content h2 {
+    font-size: 1.7rem;
+    margin: 1rem 0;
+  }
+
+  #manager .manager-content p {
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }

@@ -270,3 +270,48 @@ a {
   margin: auto;
   width: 90%;
 }
+
+
+/* Section: manager */
+#manager {
+  display: flex;
+  overflow: hidden;
+}
+
+#manager .manager-img {
+  flex: 2;
+}
+
+#manager .manager-img img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+#manager .manager-content {
+  flex: 1;
+}
+
+#manager .manager-content h2 {
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+#manager .manager-content p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#manager .manager-content div {
+  display: flex;
+}
+
+#manager .manager-content div i {
+  display: inline-block;
+  color: var(--primary-color);
+  margin-left: .5rem;
+}
