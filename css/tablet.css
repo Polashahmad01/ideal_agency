@@ -28,4 +28,17 @@
   #design .design-content .btn {
     padding: .2rem .3rem;
   }
+
+  /* Section: tool */
+  #tool h2 {
+    margin-bottom: .5rem;
+  }
+
+  #tool .card .item i {
+    padding: 2rem;
+  }
+
+  #tool .card .item p {
+    margin-bottom: 1rem;
+  }
 }

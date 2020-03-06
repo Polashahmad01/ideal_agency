@@ -172,3 +172,64 @@ a {
   margin: auto;
   width: 100%;
 }
+
+
+/* Secton: tool */
+#tool {
+  text-align: center;
+  overflow: hidden;
+}
+
+#tool h2 {
+  font-size: 2.6rem;
+  line-height: 3.7rem;
+  margin-bottom: 2rem;
+}
+
+#tool h2 span {
+  display: block;
+}
+
+#tool .card {
+  display: flex;
+}
+
+#tool .card .item {
+  padding: 1rem;
+}
+
+#tool .card .item i {
+  padding: 3rem;
+  background: var(--primary-color);
+  color: var(--body-color);
+  border-radius: 50%;
+  margin: 2.5rem 0;
+}
+
+#tool .card .item h3 {
+  padding: 1rem 0;
+  font-size: 1.3rem;
+}
+
+#tool .card .item p {
+  font-size: 1.1rem;
+  line-height: 2rem;
+  margin-bottom: 3rem;
+}
+
+#tool .btn {
+  display: inline-block;
+  padding: .5rem .8rem;
+  margin-right: .8rem;
+  background: var(--body-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#tool .btn:hover {
+  color: var(--body-color);
+  background: var(--primary-color);
+}
