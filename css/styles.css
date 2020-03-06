@@ -315,3 +315,40 @@ a {
   color: var(--primary-color);
   margin-left: .5rem;
 }
+
+
+/* Marketer */
+#marketer {
+  display: flex;
+  overflow: hidden;
+}
+
+#marketer .marketer-content {
+  flex: 1;
+}
+
+#marketer .marketer-content h2 {
+  font-size: 2rem;
+  margin: 1.7rem 0;
+}
+
+#marketer .marketer-content p {
+  font-size: 1.1rem;
+  line-height: 1.8rem;
+  margin: 1rem 0;
+}
+
+#marketer .marketer-content h3 {
+  font-size: 1.3
+  margin: 1rem 0;
+}
+
+#marketer .marketer-img {
+  flex: 2;
+}
+
+#marketer .marketer-img img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}

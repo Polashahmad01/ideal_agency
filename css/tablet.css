@@ -73,4 +73,20 @@
     line-height: 1.5rem;
     margin-bottom: 1rem;
   }
+
+  /* Section: marketer */
+  #marketer .marketer-content h2 {
+    font-size: 1.7rem;
+    margin-bottom: .7rem;
+  }
+
+  #marketer .marketer-content p {
+    line-height: 1.4rem;
+    margin: .7rem 0;
+  }
+
+  #marketer .marketer-content h3 {
+    font-size: 1.1rem;
+    margin: .5rem 0;
+  }
 }
