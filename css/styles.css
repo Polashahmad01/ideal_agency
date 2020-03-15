@@ -41,6 +41,10 @@ a {
   color: var(--link-color);
 }
 
+img {
+  width: 100%;
+}
+
 /* Utility Styling */
 .container {
   max-width: var(--max-width);
